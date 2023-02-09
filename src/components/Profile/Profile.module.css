@@ -1,9 +1,9 @@
 .profile {
     margin: 0 auto;
     width: 300px;
-    border: solid 2px lightslategray;
-    border-radius: 5px;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2), 0 4px 6px rgba(0, 0, 0, 0.2);
+    border: solid 2px rgb(248, 223, 0);
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(109, 116, 221, 0.878), 0 4px 6px rgba(50, 50, 221, 0.82);
 }
 
 .description {
@@ -11,11 +11,11 @@
     flex-direction: column;
     gap: 10px;
     align-items: center;
-    padding: 15px;
+    padding: 20px;
 }
 
 .avatar {
-    width: 150px;
+    width: 100px;
 }
 
 .name {
@@ -27,15 +27,15 @@
 .location {
     font-size: 16px;
     font-weight: 500;
-    color: lightcoral;
+    color: rgb(2, 1, 67);
 }
 
 .stats {
-    padding: 15px;
+    padding: 20px;
     display: flex;
     justify-content: space-evenly;
     list-style-type: none;
-    border-top: solid 2px lightslategray;
+    border-top: solid 2px rgb(231, 228, 50);
 }
 
 .statsItem {
@@ -47,11 +47,11 @@
 
 .label {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
 }
 
 .quantity {
     font-size: 16px;
     font-weight: 500;
-    color: lightcoral;
+    color: rgb(230, 58, 58);
 }

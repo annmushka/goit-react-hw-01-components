@@ -4,13 +4,14 @@ export const TransactionTable = styled.table`
   margin: 0 auto;
   width: 350px;
   table-layout: fixed;
-  border: solid 2px lightslategray;
+  border: solid 5px lightslategray;
   border-collapse: collapse;
   text-align: center;
+  background-color: pink;
 `;
 
 export const Thead = styled.thead`
-  border: solid 2px lightslategray;
+  border: solid 5px lightslategray;
 `;
 export const HeadRow = styled.tr`
   border: solid 2px lightslategray;
@@ -31,6 +32,6 @@ export const BodyRow = styled.tr`
 `;
 
 export const TableData = styled.td`
-  font-size: 16px;
+  font-size: 14px;
   font-weight: 400;
 `;
